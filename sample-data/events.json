@@ -1,0 +1,50 @@
+[
+  {
+    "event_id": "evt-001",
+    "application_id": "sample-app-001",
+    "type": "application_received",
+    "occurred_at": "2026-06-10T09:15:00Z",
+    "channel": "web",
+    "evidence": "complete_packet_i"
+  },
+  {
+    "event_id": "evt-002",
+    "application_id": "sample-app-001",
+    "type": "technical_screen_sent",
+    "occurred_at": "2026-06-10T20:02:00Z",
+    "channel": "email",
+    "evidence": "message_id:sample-001"
+  },
+  {
+    "event_id": "evt-003",
+    "application_id": "sample-app-002",
+    "type": "application_received",
+    "occurred_at": "2026-06-10T10:05:00Z",
+    "channel": "web",
+    "evidence": "missing_artifact"
+  },
+  {
+    "event_id": "evt-004",
+    "application_id": "sample-app-003",
+    "type": "application_received",
+    "occurred_at": "2026-06-08T16:40:00Z",
+    "channel": "web",
+    "evidence": "complete_packet_i"
+  },
+  {
+    "event_id": "evt-005",
+    "application_id": "sample-app-003",
+    "type": "email_bounced",
+    "occurred_at": "2026-06-09T03:20:00Z",
+    "channel": "email",
+    "evidence": "recipient_route_invalid"
+  },
+  {
+    "event_id": "evt-006",
+    "application_id": "sample-app-004",
+    "type": "application_received",
+    "occurred_at": "2026-06-01T08:00:00Z",
+    "channel": "web",
+    "evidence": "stale_no_followup"
+  }
+]

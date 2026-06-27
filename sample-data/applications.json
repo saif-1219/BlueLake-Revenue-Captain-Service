@@ -1,0 +1,50 @@
+[
+  {
+    "application_id": "sample-app-001",
+    "candidate_name": "Aisha Khan",
+    "school": "Sample Technical University",
+    "program": "BS Computer Science",
+    "academy_lane": "entry_level",
+    "submitted_at": "2026-06-10T09:15:00Z",
+    "artifact_url": "https://example.com/aisha-revenue-tool",
+    "technical_evidence": "Built a small scheduling service with tests and a PostgreSQL-backed event log.",
+    "ct_overlap": "08:00-13:00 CT",
+    "earliest_start": "2026-07-01"
+  },
+  {
+    "application_id": "sample-app-002",
+    "candidate_name": "Bilal Ahmed",
+    "school": "Sample Business School",
+    "program": "BBA Analytics",
+    "academy_lane": "entry_level",
+    "submitted_at": "2026-06-10T10:05:00Z",
+    "artifact_url": "",
+    "technical_evidence": "Claims automation experience but did not provide a working artifact.",
+    "ct_overlap": "10:00-14:00 CT",
+    "earliest_start": "2026-07-15"
+  },
+  {
+    "application_id": "sample-app-003",
+    "candidate_name": "Sara Perera",
+    "school": "Sample Engineering Institute",
+    "program": "BS Software Engineering",
+    "academy_lane": "entry_level",
+    "submitted_at": "2026-06-08T16:40:00Z",
+    "artifact_url": "https://example.com/sara-agent-debugger",
+    "technical_evidence": "Built a workflow debugger that replays failed jobs and explains state transitions.",
+    "ct_overlap": "07:00-12:00 CT",
+    "earliest_start": "2026-06-24"
+  },
+  {
+    "application_id": "sample-app-004",
+    "candidate_name": "Omar Rahman",
+    "school": "Sample Technical University",
+    "program": "MS Data Science",
+    "academy_lane": "experienced_or_advanced_degree_review_out",
+    "submitted_at": "2026-06-01T08:00:00Z",
+    "artifact_url": "https://example.com/omar-ranking-model",
+    "technical_evidence": "Built a ranking notebook but did not include tests or rerun instructions. Also appears outside the entry-level academy lane.",
+    "ct_overlap": "",
+    "earliest_start": ""
+  }
+]

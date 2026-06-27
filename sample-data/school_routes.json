@@ -1,0 +1,35 @@
+[
+  {
+    "source_lane_id": "school-sample-technical",
+    "source_type": "career_office",
+    "institution": "Sample Technical University",
+    "route": "email",
+    "contact": "careers@example.edu",
+    "portal_required": false,
+    "cost_blocker": false,
+    "last_contact_at": "2026-06-09T20:00:00Z",
+    "status": "active"
+  },
+  {
+    "source_lane_id": "school-sample-business",
+    "source_type": "portal",
+    "institution": "Sample Business School",
+    "route": "portal",
+    "contact": "https://example.edu/employers",
+    "portal_required": true,
+    "cost_blocker": false,
+    "last_contact_at": "2026-06-10T06:00:00Z",
+    "status": "portal_required"
+  },
+  {
+    "source_lane_id": "school-sample-engineering",
+    "source_type": "career_office",
+    "institution": "Sample Engineering Institute",
+    "route": "email",
+    "contact": "old-careers@example.edu",
+    "portal_required": false,
+    "cost_blocker": false,
+    "last_contact_at": "2026-06-09T22:00:00Z",
+    "status": "bounced_route"
+  }
+]
