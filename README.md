@@ -37,3 +37,26 @@ To prepare this service for production, we can implement:
 - **Idempotency keys via Redis**: Prevent duplicate actions from concurrent worker executions.
 - **Dead Letter Queue (DLQ)**: Capture applications that cause unhandled exceptions during rule evaluation.
 - **Alerting on stale states**: Trigger Datadog or Sentry alerts if a candidate remains in the actionable queue for more than 48 hours without a state transition.
+
+## How to Run the Pipeline
+
+This service is built using Python's standard library, so there are no external dependencies required to run or test the core logic.
+
+### Prerequisites
+* Python 3.8+ installed on your machine.
+
+### 2. Run the pipeline
+Clone the repository and then execute the main pipeline using the following script:
+
+```bash
+python pipeline.py
+```
+
+This will load the sample JSON files from `sample-data/`, build candidate state, evaluate next actions, and print a first run followed by a second run that verifies idempotency.
+
+### 3. Run tests
+Run the built-in unit tests with Python's unittest runner:
+
+```bash
+python -m unittest test_pipeline.py
+```
